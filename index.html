@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+  <!--favicon-->
+  <link rel="shortcut icon" href="logo.ico" type="x-icon">
+  <!--custom css link-->
+  <link rel="stylesheet" href="style.css">
+  <!--google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--#MAIN-->
+  <main>
+    <!--#SIDEBAR-->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box"><img src="subash.jpg" alt="Yerubandi Subrahmanyam" width="80"></figure>
+        <div class="info-content">
+          <h1 class="name" title="Yerubandi Subrahmanyam">Yerubandi Subrahmanyam</h1>
+          <p class="title">Web developer & AIML</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="subashyerubandi@gmail.com" type="email" class="contact-link">subashyerubandi@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+919550246132" class="contact-link">+91 9550246132</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="calendar-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="1982-06-23">June 29, 2003</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Edarada, Andhra Pradesh, India</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item"><a href="https://www.facebook.com/" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li class="social-item"><a href="https://github.com/" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
+          <li class="social-item"><a href="https://www.linkedin.com/" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        </ul>
+      </div>
+    </aside>
+    <!--#main-content-->
+    <div class="main-content">
+      <!--#NAVBAR-->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><button class="navbar-link  active" data-nav-link>About</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Projects</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Certificates</button></li>
+        </ul>
+      </nav>
+      <!--#ABOUT-->
+      <article class="about  active" data-page="about">
+        <header><h2 class="h2 article-title">About me</h2></header>
+        <section class="about-text">
+          <p>
+            I'm a passionate software engineer with a knack for adapting to rapidly changing environments and 
+            collaborating effectively with diverse teams. With over 1000 hours of hands-on experience in Python, 
+            HTML, CSS, JavaScript, PHP, and database technologies, I thrive on information gathering, planning, 
+            critical thinking, design, development, and testing.
+          </p>
+          <p>
+            My journey in the world of technology has been a continuous adventure, from excelling in academics to 
+            gaining practical experience through internships and certifications. I believe in the power of communication, 
+            efficient time management, critical thinking, and problem-solving to drive success in today's dynamic tech landscape.
+          </p>
+          <p>
+            Competent and dedicated executive web designer in designing and developing websites 
+            and web apps for the computer network. Effective communication, interpersonal, and presentation 
+            skills and potential to communicate with senior management.
+          </p>
+          <p>
+            Skilled in OpenCV for computer vision applications, adept at image processing and object detection. 
+            Proficient in developing innovative solutions across diverse domains such as robotics and healthcare.
+          </p>
+        </section>
+        <!--service-->
+        <section class="service">
+          <h3 class="h3 service-title">Interest</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box"><img src="wd.png" alt="Web development icon" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+                <p class="service-item-text">High-quality development of sites at the professional level.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="ai.png" alt="mobile app icon" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Artificial Intelligence</h4>
+                <p class="service-item-text">AI: Utilizing OpenCV for computer vision tasks.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="datascience.jpg" alt="camera icon" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+                <p class="service-item-text">Data science: extracting insights and knowledge from data through analysis, statistics, and machine learning techniques.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box"><img src="avatar-1.png" alt="Daniel lewis" width="80" data-modal-img></figure>
+              <img src="icon-quote.svg" alt="quote icon">
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <time datetime="2021-06-14">14 June, 2021</time>
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+      <!--#RESUME-->
+      <article class="resume" data-page="resume">
+        <header><h2 class="h2 article-title">Resume</h2></header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Vishnu Institute of Technology</h4>
+              <span>2020 — 2024</span>
+              <p class="timeline-text">Electronics and communication Engineering</p>
+              <p class="timeline-text">CGPA : 8.42</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Sasi Junior College</h4>
+              <span>2018 — 2020</span>
+              <p class="timeline-text">MPC</p>
+              <p class="timeline-text">CGPA : 9.63</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Educare English Medium School</h4>
+              <span>2017 — 2018</span>
+              <p class="timeline-text">GPA : 9.5</p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+            <h3 class="h3">Internships</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Web Development</h4>
+              <span>Nov 2022 - Jan 2023</span>
+              <p class="timeline-text">
+                The web development internship offers practical experience in front-end and back-end technologies,
+                including HTML, CSS, JavaScript, and frameworks, preparing interns for careers in modern web development.
+              </p>
+              <p class="timeline-text"><b>Technologies learned</b> : HTML, CSS, JavaScript, PHP, AngularJS, SQL</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Artificial Intelligence</h4>
+              <span>May 2023 - Jul 2023</span>
+              <p class="timeline-text">The AIML internship provides hands-on training in artificial intelligence and machine 
+                learning, preparing interns for roles in cutting-edge technology fields.
+              </p>
+              <p class="timeline-text"><b>Technologies learned: Python</b></p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+            <h3 class="h3">Certifications</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item"><p class="timeline-item-p">Certified in Web Development by WorInWell</p></li>
+            <li class="timeline-item"><p class="timeline-item-p">Certified in Artificial Intelligence by Languify, AICTE</p></li>
+            <li class="timeline-item"><p class="timeline-item-p">Certified in AngularJS by IBM</p></li>
+            <li class="timeline-item"><p class="timeline-item-p">Certified in Azure AI Fundamentals by Microsoft</p></li>
+            <li class="timeline-item"><p class="timeline-item-p">Certified in Data Analytics by AICTE</p></li>
+          </ol>
+        </section>
+      </article>
+      <!--#PORTFOLIO-->
+      <article class="portfolio" data-page="projects">
+        <header><h2 class="h2 article-title">Projects</h2></header>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+            <li class="filter-item"><button data-filter-btn>Web development</button></li>
+            <li class="filter-item"><button data-filter-btn>Artificial Intelligence</button></li>
+          </ul>
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>Web development</button></li>
+              <li class="select-item"><button data-select-item>Artificial Intelligence</button></li>
+            </ul>
+          </div>
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Subashyerubandi/Job_Portal">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="jobportal.jpg" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Job Portal</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Subashyerubandi/Doctor_Appointment">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="doctorappointment.jpg" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Doctor Appointment</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="artificial intelligence">
+              <a href="https://github.com/Subashyerubandi/Object_Detection">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="objectdetection.png" alt="brawlhalla" loading="lazy">
+                </figure>
+                <h3 class="project-title">Object detection</h3>
+                <p class="project-category">Artificial Intelligence</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Subashyerubandi/Photography_Dashboard">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="photography.png" alt="summary" loading="lazy">
+                </figure>
+                <h3 class="project-title">Photography Login Page</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="artificial intelligence">
+              <a href="https://github.com/Subashyerubandi/AI_Minor_Project">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="aiminorproject.jpg" alt="task manager" loading="lazy">
+                </figure>
+                <h3 class="project-title">AI Minor Project</h3>
+                <p class="project-category">Artificial Intelligence</p>
+              </a>
+            </li>
+          </li>
+          <li class="project-item  active" data-filter-item data-category="artificial intelligence">
+            <a href="https://github.com/Subashyerubandi/Restaurant_Review">
+              <figure class="project-img">
+                <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                <img src="restaurantreview.png" alt="task manager" loading="lazy">
+              </figure>
+              <h3 class="project-title">Restaurant Review</h3>
+              <p class="project-category">Artificial Intelligence</p>
+            </a>
+          </li>
+          </ul>
+        </section>
+      </article>
+      <!-- #BLOG-->
+      <article class="blog" data-page="certificates">
+        <header><h2 class="h2 article-title">Certificates</h2></header>
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+                <figure class="blog-banner-box"><img src="WD_internship.jpg" alt="Design conferences in 2022" loading="lazy"></figure>
+                <div class="blog-content">
+                  <div class="blog-meta"><time datetime="2022-02-23">25th Nov,2022 - 25th Jan,2023</time></div>
+                  <h3 class="h3 blog-item-title">Web development</h3>
+                  <p class="blog-text">Internship Certificate</p>
+                  <a href = "WebDevelopment_Internship_Certificate.pdf" download ><b class="b"> Download </b></a> 
+                </div> 
+            </li>
+            <li class="blog-post-item">
+                <figure class="blog-banner-box"><img src="AI_internship.jpg" alt="Design conferences in 2022" loading="lazy"></figure>
+                <div class="blog-content">
+                  <div class="blog-meta"><time datetime="2022-02-23">16th May,2023 - 16th Jul,2023</time></div>
+                  <h3 class="h3 blog-item-title">Artificial Intelligence</h3>
+                  <p class="blog-text">Internship Certificate</p>
+                  <a href = "Artificial_Intelligence_Certificate.pdf" download ><b class="b"> Download </b></a>
+                </div>
+            </li>
+            <li class="blog-post-item">
+                <figure class="blog-banner-box"><img src="AngularJS.jpg" alt="Design conferences in 2022" loading="lazy"></figure>
+                <div class="blog-content">
+                  <div class="blog-meta"><time datetime="2022-02-23">October 31,2022</time></div>
+                  <h3 class="h3 blog-item-title">Angular JS</h3>
+                  <p class="blog-text">Training Certificate</p>
+                  <a href = "AngularJS_IBM_Cerification.pdf" download ><b class="b"> Download </b></a>
+                </div>
+            </li>
+            <li class="blog-post-item">
+                <figure class="blog-banner-box"><img src="AzureAI.jpg" alt="Design conferences in 2022" loading="lazy"></figure>
+                <div class="blog-content">
+                  <div class="blog-meta"><time datetime="2022-02-23">June 15,2023</time></div>
+                  <h3 class="h3 blog-item-title">Azure AI Fundamentals</h3>
+                  <p class="blog-text">Training Certificate</p>
+                  <a href = "Azure_AI_Fundamentals_Certificate(MICROSOFT).pdf" download ><b class="b"> Download </b></a>
+                </div>
+            </li>
+            <li class="blog-post-item">
+                <figure class="blog-banner-box"><img src="AIML_AICTE.jpg" alt="Design conferences in 2022" loading="lazy"></figure>
+                <div class="blog-content">
+                  <div class="blog-meta"><time datetime="2022-02-23">December 2022 - February 2023</time></div>
+                  <h3 class="h3 blog-item-title">AI-ML</h3>
+                  <p class="blog-text">Internship Certificate</p>
+                  <a href = "AIML_Certificate(AICTE).pdf" download ><b class="b"> Download </b></a> 
+                </div>
+            </li>
+            <li class="blog-post-item">
+                <figure class="blog-banner-box"><img src="DataAnalytics_AICTE.jpg" alt="Design conferences in 2022" loading="lazy"></figure>
+                <div class="blog-content">
+                  <div class="blog-meta"><time datetime="2022-02-23">May 2023 - July 2023</time></div>
+                  <h3 class="h3 blog-item-title">Data Analytics</h3>
+                  <p class="blog-text">Internship Certificate</p>
+                  <a href = "Data_Analytics_Certificate(AICTE).pdf" download ><b class="b"> Download </b></a>
+                </div>
+            </li>
+            <li class="blog-post-item">
+                <figure class="blog-banner-box"><img src="AI_Participation.jpg" alt="Design conferences in 2022" loading="lazy"></figure>
+                <div class="blog-content">
+                  <div class="blog-meta"><time datetime="2022-02-23">15th March,2023 - 15th May,2023</time></div>
+                  <h3 class="h3 blog-item-title">Artificial Intelligence</h3>
+                  <p class="blog-text">Participation Certificate</p>
+                  <a href = "Artificial_Intelligence_Participation_Certificate.pdf" download ><b class="b"> Download </b></a>
+                </div>
+            </li>
+            <li class="blog-post-item">
+                <figure class="blog-banner-box"><img src="AI_Training.jpg" alt="Design conferences in 2022" loading="lazy"></figure>
+                <div class="blog-content">
+                  <div class="blog-meta"><time datetime="2022-02-23">15th March,2023 - 15th May,2023</time></div>
+                  <h3 class="h3 blog-item-title">Artificial Intelligence</h3>
+                  <p class="blog-text">Training Certificate</p>
+                  <a href = "Artificial_Intelligence_Training_Certificate.pdf" download ><b class="b"> Download </b></a>
+                </div>
+            </li>
+            <li class="blog-post-item">
+                <figure class="blog-banner-box"><img src="WD_Participation.jpg" alt="Design conferences in 2022" loading="lazy"></figure>
+                <div class="blog-content">
+                  <div class="blog-meta"><time datetime="2022-02-23">25th Sep,2022 - 25th Nov,2022</time></div>
+                  <h3 class="h3 blog-item-title">Web Development</h3>
+                  <p class="blog-text">Participation Certificate</p>
+                  <a href = "WebDevelopment_Participation_Certificate.pdf" download ><b class="b"> Download </b></a>
+                </div>
+            </li>
+            <li class="blog-post-item">
+                <figure class="blog-banner-box"><img src="python_ybi.jpg" alt="Design conferences in 2022" loading="lazy"></figure>
+                <div class="blog-content">
+                  <div class="blog-meta"><time datetime="2022-02-23">5th Sep,2022 - 18th Sep,2022</time></div>
+                  <h3 class="h3 blog-item-title">Python & ML</h3>
+                  <p class="blog-text">Training Certificate</p>
+                  <a href = "Python_and_ML_Certificate.pdf" download ><b class="b"> Download </b></a>
+                </div>
+            </li>
+            <li class="blog-post-item">
+                <figure class="blog-banner-box"><img src="cisco_introduction.jpg" alt="Design conferences in 2022" loading="lazy"></figure>
+                <div class="blog-content">
+                  <div class="blog-meta"><time datetime="2022-02-23">25th September,2022</time></div>
+                  <h3 class="h3 blog-item-title">Cyber Security</h3>
+                  <p class="blog-text">Introduction to Cybersecurity</p>
+                  <a href = "Introduction_to_Cybersecurity_Certificate.pdf" download ><b class="b"> Download </b></a>
+                </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </main>
+  <!--custom js link-->
+  <script src="script.js"></script>
+  <!--ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
