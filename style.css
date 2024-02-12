@@ -254,6 +254,22 @@
     background: var(--text-gradient-yellow);
     border-radius: 3px;
   }
+
+  /* Style buttons */
+  .btn {
+    background: var(--text-gradient-yellow);
+    border: none;
+    color: white;
+    padding: 8px 12px ;
+    cursor: pointer;
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background: black;
+  }
   
   .has-scrollbar::-webkit-scrollbar {
     width: 5px; /* for vertical scrollbar */
