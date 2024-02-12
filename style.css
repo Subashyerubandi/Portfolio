@@ -254,23 +254,22 @@
     background: var(--text-gradient-yellow);
     border-radius: 3px;
   }
-
-  /* Style buttons */
-  .btn {
-    background: var(--text-gradient-yellow);
-    border: none;
-    color: white;
-    padding: 8px 12px ;
-    cursor: pointer;
-    font-size: 17px;
-    margin-bottom: 10px;
-  }
-
-  /* Darker background on mouse-over */
-  .btn:hover {
-    background: black;
-  }
   
+  .GFG{
+    background-color: var(--orange-yellow-crayola); 
+    border: 2px solid black; 
+    padding: 5px 10px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 17px; 
+    margin: 7px 0px; 
+    cursor: pointer; 
+  }
+
+  .GFG:hover{
+    background-color: white;
+  }
+
   .has-scrollbar::-webkit-scrollbar {
     width: 5px; /* for vertical scrollbar */
     height: 5px; /* for horizontal scrollbar */
